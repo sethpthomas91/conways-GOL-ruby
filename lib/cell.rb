@@ -5,9 +5,12 @@ class Cell
         @is_alive = false
     end
 
-    def make_cell_alive
+    def make_alive
         @is_alive = true
     end
 
+    def kill
+        @is_alive = false
+    end
 
 end
