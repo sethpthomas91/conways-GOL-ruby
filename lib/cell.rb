@@ -12,5 +12,4 @@ class Cell
     def kill
         @is_alive = false
     end
-
 end
